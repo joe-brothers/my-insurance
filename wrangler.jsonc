@@ -28,6 +28,13 @@
 			"enabled": false
 		}
 	},
+	"secrets": {
+		"required": [
+			"EMDASH_OAUTH_GITHUB_CLIENT_ID",
+			"EMDASH_OAUTH_GITHUB_CLIENT_SECRET"
+		],
+	},
+	"workers_dev": false,
 	"worker_loaders": [
 		{
 			"binding": "LOADER",
