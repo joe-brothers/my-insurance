@@ -47,15 +47,14 @@ A clean, minimal blog built with [EmDash](https://github.com/emdash-cms/emdash) 
 ## Local Development
 
 ```bash
-pnpm install
-pnpm bootstrap
-pnpm dev
+npm install
+npm run dev
 ```
 
 ## Deploying
 
 ```bash
-pnpm deploy
+npm run deploy
 ```
 
 Or click the deploy button above to set up the project in your Cloudflare account.

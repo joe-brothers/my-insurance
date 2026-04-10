@@ -16,6 +16,18 @@ export default defineConfig({
 	integrations: [
 		react(),
 		emdash({
+			auth: {
+				selfSignup: {
+					domains: ["joe-brothers.com"],
+					defaultRole: 50,
+				},
+				// oauth: {
+				// 	github: {
+				// 		clientId: process.env.EMDASH_OAUTH_GITHUB_CLIENT_ID,
+				// 		clientSecret: process.env.EMDASH_OAUTH_GITHUB_CLIENT_SECRET,
+				// 	},
+				// },
+			},
 			database: d1({ binding: "DB", session: "auto" }),
 			storage: r2({ binding: "MEDIA" }),
 			plugins: [formsPlugin()],
