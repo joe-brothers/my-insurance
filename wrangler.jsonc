@@ -28,6 +28,7 @@
 			"enabled": false
 		}
 	},
+	"preview_urls": true,
 	"secrets": {
 		"required": [
 			"EMDASH_OAUTH_GITHUB_CLIENT_ID",
